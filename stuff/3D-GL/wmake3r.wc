@@ -1,0 +1,6 @@
+COPT= -ox -fpi87 -fp3 -zdp -bt=dos -oneatx -s -3r
+AOPT= /ml /m /zn
+TARGET_SHORT_NAME=vm3r.lib
+OBJ_LIST=matrix.obj facet.obj
+
+!include ..\makepro.wc

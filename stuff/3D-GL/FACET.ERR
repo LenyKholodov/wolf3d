@@ -1,0 +1,18 @@
+facet.cpp(1): Error! E059: (col 18) unable to open 'facet.h' 
+facet.cpp(7): Error! E336: (col 7) declaration specifiers are required to declare 'Vertex' 
+facet.cpp(7): Error! E121: (col 7) syntax error 
+facet.cpp(11): Error! E241: (col 13) 'class Facet' has not been declared 
+facet.cpp(12): Error! E224: (col 1) 'ComputeNormal' is a variable of type 'void' 
+facet.cpp(11): Error! E029: (col 27) symbol 'Vertex' has not been declared 
+facet.cpp(11): Error! E029: (col 35) symbol 'v' has not been declared 
+facet.cpp(12): Error! E006: (col 1) syntax error; probable cause: missing ';' 
+facet.cpp(184): Error! E241: (col 12) 'class FacetList' has not been declared 
+facet.cpp(184): Error! E420: (col 48) a memory initializer list may only appear in a constructor definition 
+facet.cpp(187): Error! E241: (col 12) 'class FacetList' has not been declared 
+facet.cpp(190): Error! E229: (col 16) function 'FacetList' has already been defined 
+facet.cpp(190): Note! N392: (col 16) 'int FacetList( void )' defined in: facet.cpp(184) (col 12) 
+facet.cpp(197): Error! E241: (col 23) 'class FacetList' has not been declared 
+facet.cpp(198): Error! E224: (col 1) 'PutFacet' is a variable of type 'void' 
+facet.cpp(197): Error! E029: (col 33) symbol 'Facet' has not been declared 
+facet.cpp(197): Error! E029: (col 40) symbol 'f' has not been declared 
+facet.cpp(198): Error! E006: (col 1) syntax error; probable cause: missing ';' 
