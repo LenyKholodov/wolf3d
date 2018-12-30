@@ -1,0 +1,21 @@
+GRCONSOL.CPP(3): Error! E059: (col 28) unable to open 'console/console.h' 
+GRCONSOL.CPP(5): Error! E059: (col 28) unable to open 'console/history.h' 
+GRCONSOL.CPP(11): Error! E059: (col 16) unable to open 'fin.h' 
+GRCONSOL.CPP(13): Error! E336: (col 21) declaration specifiers are required to declare 'VESAdevice' 
+GRCONSOL.CPP(13): Error! E498: (col 17) syntax error before 'vesa'; probable cause: incorrectly spelled type name 
+GRCONSOL.CPP(15): Error! E336: (col 26) declaration specifiers are required to declare 'grConsole' 
+GRCONSOL.CPP(15): Error! E498: (col 17) syntax error before 'grconsole'; probable cause: incorrectly spelled type name 
+GRCONSOL.CPP(18): Error! E498: (col 26) syntax error before 'FinClient'; probable cause: incorrectly spelled type name 
+GRCONSOL.CPP(26): Error! E157: (col 22) left expression must be integral 
+GRCONSOL.CPP(28): Error! E029: (col 3) symbol 'fin' has not been declared 
+GRCONSOL.CPP(28): Error! E545: (col 18) cannot create an undefined type with 'operator new' 
+GRCONSOL.CPP(30): Error! E006: (col 20) syntax error; probable cause: missing ';' 
+GRCONSOL.CPP(31): Error! E029: (col 6) symbol 'history' has not been declared 
+GRCONSOL.CPP(33): Error! E157: (col 38) left expression must be integral 
+GRCONSOL.CPP(36): Error! E241: (col 31) 'class VESAdevice' has not been declared 
+GRCONSOL.CPP(36): Error! E029: (col 6) symbol 'vesa' has not been declared 
+GRCONSOL.CPP(38): Error! E157: (col 28) left expression must be integral 
+GRCONSOL.CPP(41): Error! E241: (col 47) 'class VESAdevice' has not been declared 
+GRCONSOL.CPP(41): Error! E029: (col 19) symbol 'VESA640x480x8' has not been declared 
+GRCONSOL.CPP(43): Error! E157: (col 37) left expression must be integral 
+GRCONSOL.CPP(47): Error! E133: (col 15) too many errors: compilation aborted 

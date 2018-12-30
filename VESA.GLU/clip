@@ -1,0 +1,35 @@
+void DrawHor()
+{
+  char* vptr=screenPtr+100*320;
+  for (int row=0;row<100;row++)
+  {
+    vptr+=160;
+    float dist=distTable[row];
+    int i0=mod(locX+dist*cos(angle),pic1->width);
+    int j0=mod(locY+dist*sin(angle),pic1->height);
+    float di=_di[row]*sin(angle);
+    float dj=_dj[row]*cos(angle);
+    float ii=i0;
+    float jj=j0;
+    int i,j;
+    for (int col=159;col>=0;col--)
+    {
+      i=mod(ii,pic1->width);
+      j=mod(jj,pic1->height);
+      *vptr--=pic1->data[i+j*pic1->width];
+      ii-=di;
+      jj-=dj;
+    }
+    vptr+=160;
+    ii=i0+di;
+    jj=j0+dj;
+    for (col=160;col<320;col++)
+    {
+      i=mod(ii,pic1->width);
+      j=mod(jj,pic1->height);
+      *vptr++=pic1->data[i+j*pic1->width];
+      ii+=di;
+      jj+=dj;
+    }
+  }
+}

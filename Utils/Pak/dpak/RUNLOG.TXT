@@ -1,0 +1,9 @@
+called operator new for stdBinFile(164)...Ok
+called operator new for stdBinFile(164)...Ok
+called operator new for aBinFile(24)...Ok
+aBinFile::open-starting(0x8359D560,offs=160,len=0,fm=15)
+called operator new for pakBinFile(75855)...Ok
+called operator delete for stdBinFile(0x8359D4B8)
+called operator delete for pakBinFile(0x835D7038)
+called operator delete for aBinFile(0x8359D608)
+called operator delete for stdBinFile(0x8359D560)

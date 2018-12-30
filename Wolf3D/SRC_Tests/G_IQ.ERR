@@ -1,0 +1,48 @@
+g_iq.h(4): Error! E059: (col 10) unable to open 'g_wplyr.h' 
+g_iq.h(4): Note! N393: (col 10) included from G_IQ.CPP(1) 
+D:\WIN\VC98\INCLUDE\limits.h(23): Error! E080: (col 2) ERROR: Only Mac or Win32 targets supported! 
+D:\WIN\VC98\INCLUDE\limits.h(23): Note! N393: (col 2) included from d:\projects\h\misc.h(4) 
+D:\WIN\VC98\INCLUDE\limits.h(23): Note! N393: (col 2) included from d:\projects\h\fixed.h(4) 
+D:\WIN\VC98\INCLUDE\limits.h(23): Note! N393: (col 2) included from g_iq.h(6) 
+D:\WIN\VC98\INCLUDE\limits.h(23): Note! N393: (col 2) included from G_IQ.CPP(1) 
+D:\WIN\VC98\INCLUDE\malloc.h(23): Error! E080: (col 2) ERROR: Only Mac or Win32 targets supported! 
+D:\WIN\VC98\INCLUDE\malloc.h(23): Note! N393: (col 2) included from d:\projects\h\types.h(10) 
+D:\WIN\VC98\INCLUDE\malloc.h(23): Note! N393: (col 2) included from d:\projects\h\misc.h(5) 
+D:\WIN\VC98\INCLUDE\malloc.h(23): Note! N393: (col 2) included from d:\projects\h\fixed.h(4) 
+D:\WIN\VC98\INCLUDE\malloc.h(23): Note! N393: (col 2) included from g_iq.h(6) 
+D:\WIN\VC98\INCLUDE\malloc.h(23): Note! N393: (col 2) included from G_IQ.CPP(1) 
+D:\WIN\VC98\INCLUDE\stdlib.h(24): Error! E080: (col 2) ERROR: Only Mac or Win32 targets supported! 
+D:\WIN\VC98\INCLUDE\stdlib.h(24): Note! N393: (col 2) included from d:\projects\h\misc.h(6) 
+D:\WIN\VC98\INCLUDE\stdlib.h(24): Note! N393: (col 2) included from d:\projects\h\fixed.h(4) 
+D:\WIN\VC98\INCLUDE\stdlib.h(24): Note! N393: (col 2) included from g_iq.h(6) 
+D:\WIN\VC98\INCLUDE\stdlib.h(24): Note! N393: (col 2) included from G_IQ.CPP(1) 
+D:\WIN\VC98\INCLUDE\string.h(23): Error! E080: (col 2) ERROR: Only Mac or Win32 targets supported! 
+D:\WIN\VC98\INCLUDE\string.h(23): Note! N393: (col 2) included from d:\projects\h\misc.h(7) 
+D:\WIN\VC98\INCLUDE\string.h(23): Note! N393: (col 2) included from d:\projects\h\fixed.h(4) 
+D:\WIN\VC98\INCLUDE\string.h(23): Note! N393: (col 2) included from g_iq.h(6) 
+D:\WIN\VC98\INCLUDE\string.h(23): Note! N393: (col 2) included from G_IQ.CPP(1) 
+D:\WIN\VC98\INCLUDE\conio.h(22): Error! E080: (col 2) ERROR: Only Mac or Win32 targets supported! 
+D:\WIN\VC98\INCLUDE\conio.h(22): Note! N393: (col 2) included from d:\projects\h\misc.h(8) 
+D:\WIN\VC98\INCLUDE\conio.h(22): Note! N393: (col 2) included from d:\projects\h\fixed.h(4) 
+D:\WIN\VC98\INCLUDE\conio.h(22): Note! N393: (col 2) included from g_iq.h(6) 
+D:\WIN\VC98\INCLUDE\conio.h(22): Note! N393: (col 2) included from G_IQ.CPP(1) 
+D:\WIN\VC98\INCLUDE\errno.h(24): Error! E080: (col 2) ERROR: Only Mac or Win32 targets supported! 
+D:\WIN\VC98\INCLUDE\errno.h(24): Note! N393: (col 2) included from d:\projects\h\misc.h(9) 
+D:\WIN\VC98\INCLUDE\errno.h(24): Note! N393: (col 2) included from d:\projects\h\fixed.h(4) 
+D:\WIN\VC98\INCLUDE\errno.h(24): Note! N393: (col 2) included from g_iq.h(6) 
+D:\WIN\VC98\INCLUDE\errno.h(24): Note! N393: (col 2) included from G_IQ.CPP(1) 
+g_iq.h(27): Error! E029: (col 25) symbol 'IQ_MAX_PROBS' has not been declared 
+g_iq.h(27): Note! N393: (col 25) included from G_IQ.CPP(1) 
+g_iq.h(38): Error! E336: (col 21) declaration specifiers are required to declare 'WeaponPlayer' 
+g_iq.h(38): Error! E006: (col 21) syntax error; probable cause: missing ';' 
+g_iq.h(39): Error! E336: (col 15) declaration specifiers are required to declare 'Player' 
+g_iq.h(39): Error! E121: (col 15) syntax error 
+g_iq.h(40): Error! E336: (col 19) declaration specifiers are required to declare 'GameSystem' 
+g_iq.h(40): Error! E121: (col 19) syntax error 
+g_iq.h(42): Error! E121: (col 1) syntax error 
+g_iq.h(47): Error! E121: (col 9) syntax error 
+g_iq.h(48): Error! E357: (col 52) a virtual function may only be declared in a class 
+g_iq.h(48): Error! E330: (col 54) a function cannot be initialized 
+g_iq.h(49): Error! E121: (col 1) syntax error 
+g_iq.h(56): Error! E641: (col 1) cannot inherit a partially defined base class 'GameIQ' 
+g_iq.h(58): Error! E133: (col 34) too many errors: compilation aborted 

@@ -1,0 +1,18 @@
+DEST textures
+SRC  bitmaps
+CACHE sprite
+SPRITE dl01 1
+  FACE 0 1
+    IMAGE dl01 0 0
+  END
+END
+SPRITE sprite1 1
+  FACE 0 1
+    IMAGE wall 0 0
+  END
+END
+SPRITE sprite2 1
+  FACE 0 1
+    IMAGE wall 0 0
+  END
+END

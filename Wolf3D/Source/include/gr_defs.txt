@@ -1,0 +1,97 @@
+  DEST "sprites/2d"
+
+  SPRITE_LISTS
+              "iface.slc"
+              "ch_face.slc"
+              "duplet.slc"
+              "automat.slc"
+              "sight.slc"
+              "killer.slc"
+              "gun.slc"
+              "bazuka.slc"
+  END
+
+  REM Описание текстур
+
+  REM Все следующие текстуры должны быть формата 128x128x1
+
+  DEST "textures"
+
+  TEXTURES
+       "wallN.bmp"      NO_COMPILE
+       "wallE.bmp"      NO_COMPILE
+       "wallS.bmp"      NO_COMPILE
+       "wallW.bmp"      NO_COMPILE
+       "door1.bmp"      NO_COMPILE
+       "wall.bmp"       NO_COMPILE
+       "wall1.bmp"      NO_COMPILE
+       "wall2.bmp"      NO_COMPILE
+       "floor1.bmp"     NO_COMPILE
+       "floor2.bmp"     NO_COMPILE
+       "wall0.bmp"      NO_COMPILE
+       "maps/s1.bmp"    NO_COMPILE
+       "maps/s2.bmp"    NO_COMPILE
+       "maps/w1.bmp"    NO_COMPILE
+       "maps/w2.bmp"    NO_COMPILE
+       "maps/w3.bmp"    NO_COMPILE
+       "maps/w4.bmp"    NO_COMPILE
+       "maps/w5.bmp"    NO_COMPILE
+       "maps/w6.bmp"    NO_COMPILE
+       "maps/w7.bmp"    NO_COMPILE
+       "maps/w8.bmp"    NO_COMPILE
+       "maps/w9.bmp"    NO_COMPILE
+       "maps/w10.bmp"   NO_COMPILE
+       "maps/w11.bmp"   NO_COMPILE
+       "snow.bmp"       NO_COMPILE
+       "sky.bmp"        NO_COMPILE
+  END
+
+  DEST "sprites/3d"
+
+  SPRITES
+       "portal.wsf"
+       "sarg.wsf"
+       "play.wsf"
+       "boss.wsf"
+       "cybr.wsf"
+       "troo.wsf"
+       "skul.wsf"
+       "spos.wsf"
+       "head.wsf"
+       "bal7.wsf"
+       "bal1.wsf"
+       "poss.wsf"
+       "intel.wsf"
+       "automat.wsf"
+       "duplet.wsf"
+       "killer.wsf"
+       "gun.wsf"
+       "ch_men.wsf"
+       "health.wsf"
+       "armor.wsf"
+       "shtg.wsf"
+       "chgg.wsf"
+       "sawg.wsf"
+       "pisg.wsf"
+       "pisf.wsf"
+       "puff.wsf"
+       "blud.wsf"
+       "fak.wsf"
+       "tree1.wsf"
+       "bazuka.wsf"
+       "bpat.wsf"
+       "chair.wsf"
+       "chuv.wsf"
+       "coat.wsf"
+  END
+
+  REM Описание шрифтов
+
+  DEST "fonts"
+  BGIFONT
+       "trip.chr"
+  END
+  BINFONT
+       "font.fnt"
+       "w3d.fnt"
+  END

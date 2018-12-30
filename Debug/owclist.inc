@@ -1,0 +1,1 @@
+OBJ_S_LIST=debug.obj clock.obj

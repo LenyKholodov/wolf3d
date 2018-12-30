@@ -1,0 +1,6 @@
+COPT= -fpi87 -fp3 -zdp -bt=dos -oneatx -s -3s -xs
+AOPT= /ml /m /zn
+TARGET_SHORT_NAME=pool3s.lib
+OBJ_LIST=pool.obj
+
+!include ..\makepro.wc

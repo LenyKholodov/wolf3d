@@ -1,0 +1,3 @@
+OBJ_S_LIST=COMDEFS.OBJ &
+           COMMAND.OBJ &
+	   VARPOOL.OBJ

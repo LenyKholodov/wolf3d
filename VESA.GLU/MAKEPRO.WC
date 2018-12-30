@@ -1,0 +1,20 @@
+LIB_DIR=c:\unt\files\library\
+TARGET_NAME=$(LIB_DIR)$(TARGET_SHORT_NAME)
+
+.erase
+.silent
+
+all: $(TARGET_NAME)
+
+.cpp.obj:
+        wpp386 $(COPT) $[*
+
+.asm.obj:
+        tasm $(AOPT) $[*
+
+$(TARGET_NAME):        $(OBJ_LIST)
+                %create temp.tmp
+                for %i in ($(OBJ_LIST)) do @%append temp.tmp +-%i
+                wlib -q -b -c  $(TARGET_NAME) @temp.tmp
+                del temp.tmp
+                del *.obj

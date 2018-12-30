@@ -1,0 +1,24 @@
+# Compilers and options:
+
+CCOPTS = -3r -ox -s
+
+OBJ_LIST1 = test_s.obj
+OBJ_LIST2 = test_c.obj
+
+all : server.exe client.exe
+
+
+server.exe:         $(OBJ_LIST1)
+        %create temp.tmp
+        for %i in ($(OBJ_LIST1)) do @%append temp.tmp file %i
+        wlink name server system dos4g @temp.tmp option caseexact option stack=1024k
+        del temp.tmp
+
+client.exe:         $(OBJ_LIST2)
+        %create temp.tmp
+        for %i in ($(OBJ_LIST2)) do @%append temp.tmp file %i
+        wlink name client system dos4g @temp.tmp option caseexact option stack=1024k
+        del temp.tmp
+
+.cpp.obj:
+        wpp386 $(CCOPTS) $[*

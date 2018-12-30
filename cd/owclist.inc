@@ -1,0 +1,1 @@
+OBJ_S_LIST=cdrdev.obj

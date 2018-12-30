@@ -1,0 +1,20 @@
+# Compilers and options:
+
+MIDASDIR = D:\projects\MIDAS
+LIBDIR = $(MIDASDIR)\lib\dos\wcretail
+MIDASINCS = $(MIDASDIR)\include
+MIDASLIB = $(LIBDIR)\midas.lib
+
+all : view.exe create.exe
+
+create.exe :        create.obj $(MIDASLIB)
+        wlink name create system dos4g file create option caseexact option stack=1024k
+
+view.exe :        view.obj $(MIDASLIB)
+        wlink name view system dos4g file view option caseexact option stack=1024k
+
+view.obj: view.cpp
+        wpp386 -fpi87 -fp3 -zdp -bt=dos -oneatx -s -3r view.cpp
+
+create.obj: create.cpp
+        wpp386 -fpi87 -fp3 -zdp -bt=dos -oneatx -s -3r create.cpp

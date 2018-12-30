@@ -1,0 +1,21 @@
+GRCONS.CPP(1): Error! E059: (col 28) unable to open 'console\console.h' 
+GRCONS.CPP(3): Error! E241: (col 17) 'class grConsole' has not been declared 
+GRCONS.CPP(5): Error! E029: (col 7) symbol 'mFnt' has not been declared 
+GRCONS.CPP(5): Error! E029: (col 8) symbol 'NULL' has not been declared 
+GRCONS.CPP(6): Error! E029: (col 3) symbol 'mFntWidth' has not been declared 
+GRCONS.CPP(7): Error! E029: (col 3) symbol 'mSe' has not been declared 
+GRCONS.CPP(8): Error! E029: (col 3) symbol 'mEScreen' has not been declared 
+GRCONS.CPP(9): Error! E029: (col 3) symbol 'mDrawScreen' has not been declared 
+GRCONS.CPP(10): Error! E029: (col 3) symbol 'mConsole' has not been declared 
+GRCONS.CPP(11): Error! E029: (col 12) symbol 'mFntOwner' has not been declared 
+GRCONS.CPP(11): Error! E029: (col 22) symbol 'FALSE' has not been declared 
+GRCONS.CPP(12): Error! E029: (col 3) symbol 'eLink' has not been declared 
+GRCONS.CPP(13): Error! E029: (col 3) symbol 'mCursorBlinkValue' has not been declared 
+GRCONS.CPP(14): Error! E029: (col 3) symbol 'textColor' has not been declared 
+GRCONS.CPP(15): Error! E029: (col 3) symbol 'etColor' has not been declared 
+GRCONS.CPP(16): Error! E029: (col 3) symbol 'bkColor' has not been declared 
+GRCONS.CPP(17): Error! E029: (col 3) symbol 'ShowSpeed' has not been declared 
+GRCONS.CPP(18): Error! E029: (col 3) symbol 'CursorBlinkSpeed' has not been declared 
+GRCONS.CPP(19): Error! E029: (col 3) symbol 'mVisible' has not been declared 
+GRCONS.CPP(22): Error! E241: (col 17) 'class grConsole' has not been declared 
+GRCONS.CPP(22): Error! E133: (col 21) too many errors: compilation aborted 

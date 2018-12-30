@@ -1,0 +1,68 @@
+G_IQ.CPP(1): Error! E059: (col 10) unable to open 'g_iq.h' 
+G_IQ.CPP(2): Error! E059: (col 10) unable to open 'g_random.h' 
+G_IQ.CPP(4): Error! E059: (col 10) unable to open 'g_system.h' 
+G_IQ.CPP(5): Error! E059: (col 10) unable to open 'g_monstr.h' 
+G_IQ.CPP(7): Error! E059: (col 10) unable to open 'cross.h' 
+D:\WIN\VC98\INCLUDE\fstream.h(25): Error! E080: (col 2) ERROR: Only Mac or Win32 targets supported! 
+D:\WIN\VC98\INCLUDE\fstream.h(25): Note! N393: (col 2) included from d:\projects\h\debug.h(4) 
+D:\WIN\VC98\INCLUDE\fstream.h(25): Note! N393: (col 2) included from G_IQ.CPP(9) 
+D:\WIN\VC98\INCLUDE\iostream.h(25): Error! E080: (col 2) ERROR: Only Mac or Win32 targets supported! 
+D:\WIN\VC98\INCLUDE\iostream.h(25): Note! N393: (col 2) included from D:\WIN\VC98\INCLUDE\fstream.h(49) 
+D:\WIN\VC98\INCLUDE\iostream.h(25): Note! N393: (col 2) included from d:\projects\h\debug.h(4) 
+D:\WIN\VC98\INCLUDE\iostream.h(25): Note! N393: (col 2) included from G_IQ.CPP(9) 
+D:\WIN\VC98\INCLUDE\ios.h(25): Error! E080: (col 2) ERROR: Only Mac or Win32 targets supported! 
+D:\WIN\VC98\INCLUDE\ios.h(25): Note! N393: (col 2) included from D:\WIN\VC98\INCLUDE\iostream.h(52) 
+D:\WIN\VC98\INCLUDE\ios.h(25): Note! N393: (col 2) included from D:\WIN\VC98\INCLUDE\fstream.h(49) 
+D:\WIN\VC98\INCLUDE\ios.h(25): Note! N393: (col 2) included from d:\projects\h\debug.h(4) 
+D:\WIN\VC98\INCLUDE\ios.h(25): Note! N393: (col 2) included from G_IQ.CPP(9) 
+D:\WIN\VC98\INCLUDE\streamb.h(25): Error! E080: (col 2) ERROR: Only Mac or Win32 targets supported! 
+D:\WIN\VC98\INCLUDE\streamb.h(25): Note! N393: (col 2) included from D:\WIN\VC98\INCLUDE\ios.h(256) 
+D:\WIN\VC98\INCLUDE\streamb.h(25): Note! N393: (col 2) included from D:\WIN\VC98\INCLUDE\iostream.h(52) 
+D:\WIN\VC98\INCLUDE\streamb.h(25): Note! N393: (col 2) included from D:\WIN\VC98\INCLUDE\fstream.h(49) 
+D:\WIN\VC98\INCLUDE\streamb.h(25): Note! N393: (col 2) included from d:\projects\h\debug.h(4) 
+D:\WIN\VC98\INCLUDE\streamb.h(25): Note! N393: (col 2) included from G_IQ.CPP(9) 
+D:\WIN\VC98\INCLUDE\istream.h(25): Error! E080: (col 2) ERROR: Only Mac or Win32 targets supported! 
+D:\WIN\VC98\INCLUDE\istream.h(25): Note! N393: (col 2) included from D:\WIN\VC98\INCLUDE\iostream.h(56) 
+D:\WIN\VC98\INCLUDE\istream.h(25): Note! N393: (col 2) included from D:\WIN\VC98\INCLUDE\fstream.h(49) 
+D:\WIN\VC98\INCLUDE\istream.h(25): Note! N393: (col 2) included from d:\projects\h\debug.h(4) 
+D:\WIN\VC98\INCLUDE\istream.h(25): Note! N393: (col 2) included from G_IQ.CPP(9) 
+D:\WIN\VC98\INCLUDE\ostream.h(25): Error! E080: (col 2) ERROR: Only Mac or Win32 targets supported! 
+D:\WIN\VC98\INCLUDE\ostream.h(25): Note! N393: (col 2) included from D:\WIN\VC98\INCLUDE\iostream.h(58) 
+D:\WIN\VC98\INCLUDE\ostream.h(25): Note! N393: (col 2) included from D:\WIN\VC98\INCLUDE\fstream.h(49) 
+D:\WIN\VC98\INCLUDE\ostream.h(25): Note! N393: (col 2) included from d:\projects\h\debug.h(4) 
+D:\WIN\VC98\INCLUDE\ostream.h(25): Note! N393: (col 2) included from G_IQ.CPP(9) 
+D:\WIN\VC98\INCLUDE\limits.h(23): Error! E080: (col 2) ERROR: Only Mac or Win32 targets supported! 
+D:\WIN\VC98\INCLUDE\limits.h(23): Note! N393: (col 2) included from d:\projects\h\misc.h(4) 
+D:\WIN\VC98\INCLUDE\limits.h(23): Note! N393: (col 2) included from d:\projects\h\fixed.h(4) 
+D:\WIN\VC98\INCLUDE\limits.h(23): Note! N393: (col 2) included from d:\projects\h\tables.h(4) 
+D:\WIN\VC98\INCLUDE\limits.h(23): Note! N393: (col 2) included from G_IQ.CPP(10) 
+D:\WIN\VC98\INCLUDE\malloc.h(23): Error! E080: (col 2) ERROR: Only Mac or Win32 targets supported! 
+D:\WIN\VC98\INCLUDE\malloc.h(23): Note! N393: (col 2) included from d:\projects\h\types.h(10) 
+D:\WIN\VC98\INCLUDE\malloc.h(23): Note! N393: (col 2) included from d:\projects\h\misc.h(5) 
+D:\WIN\VC98\INCLUDE\malloc.h(23): Note! N393: (col 2) included from d:\projects\h\fixed.h(4) 
+D:\WIN\VC98\INCLUDE\malloc.h(23): Note! N393: (col 2) included from d:\projects\h\tables.h(4) 
+D:\WIN\VC98\INCLUDE\malloc.h(23): Note! N393: (col 2) included from G_IQ.CPP(10) 
+D:\WIN\VC98\INCLUDE\stdlib.h(24): Error! E080: (col 2) ERROR: Only Mac or Win32 targets supported! 
+D:\WIN\VC98\INCLUDE\stdlib.h(24): Note! N393: (col 2) included from d:\projects\h\misc.h(6) 
+D:\WIN\VC98\INCLUDE\stdlib.h(24): Note! N393: (col 2) included from d:\projects\h\fixed.h(4) 
+D:\WIN\VC98\INCLUDE\stdlib.h(24): Note! N393: (col 2) included from d:\projects\h\tables.h(4) 
+D:\WIN\VC98\INCLUDE\stdlib.h(24): Note! N393: (col 2) included from G_IQ.CPP(10) 
+D:\WIN\VC98\INCLUDE\string.h(23): Error! E080: (col 2) ERROR: Only Mac or Win32 targets supported! 
+D:\WIN\VC98\INCLUDE\string.h(23): Note! N393: (col 2) included from d:\projects\h\misc.h(7) 
+D:\WIN\VC98\INCLUDE\string.h(23): Note! N393: (col 2) included from d:\projects\h\fixed.h(4) 
+D:\WIN\VC98\INCLUDE\string.h(23): Note! N393: (col 2) included from d:\projects\h\tables.h(4) 
+D:\WIN\VC98\INCLUDE\string.h(23): Note! N393: (col 2) included from G_IQ.CPP(10) 
+D:\WIN\VC98\INCLUDE\conio.h(22): Error! E080: (col 2) ERROR: Only Mac or Win32 targets supported! 
+D:\WIN\VC98\INCLUDE\conio.h(22): Note! N393: (col 2) included from d:\projects\h\misc.h(8) 
+D:\WIN\VC98\INCLUDE\conio.h(22): Note! N393: (col 2) included from d:\projects\h\fixed.h(4) 
+D:\WIN\VC98\INCLUDE\conio.h(22): Note! N393: (col 2) included from d:\projects\h\tables.h(4) 
+D:\WIN\VC98\INCLUDE\conio.h(22): Note! N393: (col 2) included from G_IQ.CPP(10) 
+D:\WIN\VC98\INCLUDE\errno.h(24): Error! E080: (col 2) ERROR: Only Mac or Win32 targets supported! 
+D:\WIN\VC98\INCLUDE\errno.h(24): Note! N393: (col 2) included from d:\projects\h\misc.h(9) 
+D:\WIN\VC98\INCLUDE\errno.h(24): Note! N393: (col 2) included from d:\projects\h\fixed.h(4) 
+D:\WIN\VC98\INCLUDE\errno.h(24): Note! N393: (col 2) included from d:\projects\h\tables.h(4) 
+D:\WIN\VC98\INCLUDE\errno.h(24): Note! N393: (col 2) included from G_IQ.CPP(10) 
+G_IQ.CPP(16): Error! E241: (col 23) 'class TurnToTarget' has not been declared 
+G_IQ.CPP(16): Error! E336: (col 31) declaration specifiers are required to declare 'IQMark' 
+G_IQ.CPP(16): Error! E121: (col 31) syntax error 
+Error! E133: too many errors: compilation aborted 

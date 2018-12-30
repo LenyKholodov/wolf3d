@@ -1,0 +1,50 @@
+
+  REM Можно добавлять; но удаление одного из элементов может привести к краху
+
+  RESOURCE
+           SPRITE_CACHE_SIZE   16
+           TEXT_CACHE_SIZE     16
+           SPRLIST_CACHE_SIZE  16
+
+           GAME_WEAPON_LIST    1
+           GAME_SUBJECT_LIST   2
+           GAME_OTHERS_LIST    3
+           GAME_PLAYER_LIST    4
+           GAME_TELEPORT_LIST  5
+           GAME_EFFECT_LIST    6
+
+           BOX_KILLER          0
+           BOX_GUN             1
+           BOX_SHOTGUN         2
+           BOX_AUTOMAT         3
+           BOX_FB              4
+           BOX_HEALTH          5
+           BOX_PROTECT         6
+
+           GAME_CACHE_SIZE     8
+
+           TRUE                1
+           FALSE               0
+           NULL                -1
+           NOSPRITE            255
+           NOSOUND             -1
+
+           NORTH               0
+           EAST                1
+           SOURTH              2
+           WEST                3
+
+           STAGE_SIMPLE                1
+           STAGE_TEXTURE_8BIT          2
+           STAGE_SHADOW_TEXTURE_8BIT   3
+           STAGE_LIGHTMAP_TEXTURE_8BIT 4
+
+           SIMPLE_PLANE                1
+
+           FLOOR_TEXTURE_8BIT          2
+           FLOOR_SHADOW_8BIT           3
+
+           FLOOR_UP_TEXTURE_8BIT       2
+           FLOOR_UP_SHADOW_8BIT        3
+           SKY_TEXTURE                 4
+  END

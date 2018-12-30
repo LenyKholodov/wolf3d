@@ -1,0 +1,2 @@
+FIXED.CPP(1): Error! E336: (col 13) declaration specifiers are required to declare 'Fixed16' 
+FIXED.CPP(1): Error! E498: (col 10) syntax error before 'sin'; probable cause: incorrectly spelled type name 

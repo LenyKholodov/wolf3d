@@ -1,0 +1,85 @@
+#ifndef __USER_PLAYER_RES__
+#define __USER_PLAYER_RES__
+
+#include "t_defs.h"
+#include "t_mes.h"
+
+enum {
+     SELECT_WEAPON = USER_PLAYER_LIMIT,
+     NEXT_WEAPON,
+     PREV_WEAPON,
+     PRESENT_WEAPON,
+     ANS_PRESENT_WEAPON,
+     RELOAD_BOXES,
+     USER_REFRESH
+};
+
+/////////////////////////////////////////////////////////////////////////////
+////Выбрано оружие указанного индекса
+/////////////////////////////////////////////////////////////////////////////
+struct  UserSelectWeaponMessage: public GameMessage
+{
+        UserSelectWeaponMessage (int _weapon): weapon (_weapon)
+         { id = SELECT_WEAPON; }
+
+        int     weapon;
+};
+
+/////////////////////////////////////////////////////////////////////////////
+////Следующее оружие
+/////////////////////////////////////////////////////////////////////////////
+struct  UserNextWeaponMessage: public GameMessage
+{
+        UserNextWeaponMessage () { id = NEXT_WEAPON; }
+};
+
+/////////////////////////////////////////////////////////////////////////////
+////Предыдущее оружие
+/////////////////////////////////////////////////////////////////////////////
+struct  UserPrevWeaponMessage: public GameMessage
+{
+        UserPrevWeaponMessage () { id = PREV_WEAPON; }
+};
+
+/////////////////////////////////////////////////////////////////////////////
+////Имеется ли данный предмет в наличии ?
+/////////////////////////////////////////////////////////////////////////////
+struct  UserIsPresentWeaponMessage: public GameMessage
+{
+        UserIsPresentWeaponMessage (int _weapon) : weapon (_weapon)
+           { id = PRESENT_WEAPON; }
+
+        int     weapon;
+};
+
+/////////////////////////////////////////////////////////////////////////////
+////Такое оружие имеется
+/////////////////////////////////////////////////////////////////////////////
+struct  UserPresentWeaponMessage: public GameMessage
+{
+        UserPresentWeaponMessage (int _weapon) : weapon (_weapon)
+           { id = ANS_PRESENT_WEAPON; }
+
+        int     weapon;
+};
+
+/////////////////////////////////////////////////////////////////////////////
+////Сообщение перезагрузка оружия (трюк для загрузки коробок с оружием)
+/////////////////////////////////////////////////////////////////////////////
+struct  UserReloadBoxesMessage: public GameMessage
+{
+        UserReloadBoxesMessage (ID* _boxes): boxes(_boxes)
+          { id = RELOAD_BOXES; }
+
+        ID*     boxes;  //Указатель на коробки (temp)
+};
+
+/////////////////////////////////////////////////////////////////////////////
+////Refresh для USER'а
+/////////////////////////////////////////////////////////////////////////////
+struct  UserRefreshMessage: public GameMessage
+{
+        UserRefreshMessage () {id = USER_REFRESH;}
+};
+
+#endif

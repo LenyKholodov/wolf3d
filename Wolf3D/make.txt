@@ -1,0 +1,143 @@
+REM     Make file для ресурсов игры
+
+REM     Стандартный заголовок уровня
+DEST "maps/wolf3d"
+LEVEL wolf3d Welcome
+  DEST "maps/wolf3d"
+  SRC  "source"
+  MAP  "wolf3d"
+  DEST "maps/wolf3d"
+  CACHE w3d
+
+  GRAPH_BPP 1
+
+  INCLUDE "source/include/graph/graph.inc"
+  INCLUDE "source/include/gr_defs.txt"
+  INCLUDE "source/include/defs.txt"
+
+  REM Кидаем текстуру на пол и вешаем её на потолок
+
+  DEST "textures"
+  FLOOR TEXT_MAPS_W8
+  SKY   TEXT_MAPS_W8
+
+  REM Звук
+
+  DEST           "sounds"
+  SOUND          "sounds"
+  MUSIC          SND_BK_4
+  SCREEN_SHOT    "face/wolf3d.bmp"
+  KLIP           "klip/untlogo.klp"
+
+  RENDER_TYPE
+    STAGE_RENDER        STAGE_LIGHTMAP_TEXTURE_8BIT
+    FLOOR_RENDER        FLOOR_SHADOW_8BIT
+    SKY_RENDER          FLOOR_UP_SHADOW_8BIT
+  END
+
+  REM  Далее расположены имена ресурсов для дизайнера; они могут свободно изменяться
+
+  RESOURCE
+           DOOR_OPEN_SND  2
+           SGUN_USE_SND   10
+           EXCELENT_SND   0
+           SARGE_DEATH    2
+           ERROR_SOUND    12
+
+           SARGE_SPRITE_ID 4
+           TROO_SPRITE_ID  5
+           BOSS_SPRITE_ID  6
+
+           SND_STD_DOOR_OPEN    SND_DR1_STRT
+           SND_STD_DOOR_CLOSE   SND_DR1_STRT
+           TEXT_STD_DOOR        TEXT_DOOR1
+           STD_DOOR_STEP        2
+           STD_DOOR_WAIT_TIME   12
+           STD_DOOR_CROSS_STATE 32
+  END
+
+  REM Внимание! Игровые ресурсы должны располагаться после системных
+
+  DEST "game"
+
+  INCLUDE "source/include/levels/wolf3d/desc.inc"
+
+  DEST "maps/wolf3d"
+
+  INCLUDE "source/include/levels/wolf3d/map.inc"
+
+  RESPAWN
+          1    1
+          45   16
+          40   55
+  END
+END
+
+DEST "maps/level1"
+
+LEVEL level1 LastNight
+  DEST "maps/level1"
+  SRC  "source"
+  MAP  "level1"
+  DEST "maps/level1"
+  CACHE w3d
+
+  INCLUDE "source/include/gr_defs.txt"
+  INCLUDE "source/include/defs.txt"
+
+  REM Кидаем текстуру на пол и вешаем её на потолок
+
+  DEST "textures"
+  FLOOR TEXT_FLOOR2
+  SKY   TEXT_FLOOR2
+
+  REM Звук
+
+  DEST                  "sounds"
+  SOUND                 "sounds"
+  MUSIC                 SND_BK_5
+  SCREEN_SHOT           "face/matrix.bmp"
+  KLIP                  "klip/w3d.klp"
+
+  RENDER_TYPE
+    STAGE_RENDER        STAGE_LIGHTMAP_TEXTURE_8BIT
+    FLOOR_RENDER        FLOOR_SHADOW_8BIT
+    SKY_RENDER          FLOOR_UP_SHADOW_8BIT
+  END
+
+  REM  Далее расположены имена ресурсов для дизайнера; они могут свободно изменяться
+
+  RESOURCE
+           DOOR_OPEN_SND  2
+           SGUN_USE_SND   10
+           EXCELENT_SND   0
+           SARGE_DEATH    2
+           ERROR_SOUND    12
+
+           SARGE_SPRITE_ID 4
+           TROO_SPRITE_ID  5
+           BOSS_SPRITE_ID  6
+
+           SND_STD_DOOR_OPEN   SND_DR1_STRT
+           SND_STD_DOOR_CLOSE  SND_DR1_STRT
+           TEXT_STD_DOOR       TEXT_DOOR1
+           STD_DOOR_STEP        2
+           STD_DOOR_WAIT_TIME   12
+           STD_DOOR_CROSS_STATE 32
+  END
+
+  REM Внимание! Игровые ресурсы должны располагаться после системных
+
+  DEST "game"
+
+  INCLUDE "source/include/levels/level1/desc.inc"
+
+  DEST "maps/level1"
+
+  INCLUDE "source/include/levels/level1/map.inc"
+
+  RESPAWN
+          1 1
+          18 17
+  END
+END

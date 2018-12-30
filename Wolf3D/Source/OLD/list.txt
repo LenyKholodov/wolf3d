@@ -1,0 +1,5 @@
+textures\wallN.mmt
+textures\wallE.mmt
+textures\wallS.mmt
+textures\wallW.mmt
+textures\door1.mmt

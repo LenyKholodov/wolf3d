@@ -1,0 +1,9 @@
+console.h(96): Error! E498: (col 27) syntax error before 'fb'; probable cause: incorrectly spelled type name 
+console.h(96): Note! N393: (col 27) included from cons.h(6) 
+console.h(96): Note! N393: (col 27) included from test__4.cpp(16) 
+console.h(98): Error! E121: (col 1) syntax error 
+console.h(100): Error! E641: (col 41) cannot inherit a partially defined base class 'consoleBase' 
+console.h(103): Error! E498: (col 30) syntax error before 'fn'; probable cause: incorrectly spelled type name 
+cons.h(33): Error! E326: (col 31) defining 'Console::conout' is not possible because its type has unknown size 
+cons.h(33): Note! N392: (col 31) 'oConsolestream Console::conout' defined in: cons.h(33) (col 25) 
+cons.h(33): Note! N393: (col 31) included from test__4.cpp(16) 

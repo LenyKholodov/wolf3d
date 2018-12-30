@@ -1,0 +1,3 @@
+OBJ_LIST=misc.obj debugl.obj error.obj
+
+!include ..\makepro.bc

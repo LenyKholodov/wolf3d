@@ -1,0 +1,14 @@
+DEST textures
+SRC  bitmaps
+CACHE wall
+LIST
+     wallN
+     wallE
+     wallS
+     wallW
+     door1
+     wall
+     wall1
+     wall2
+     floor1
+END

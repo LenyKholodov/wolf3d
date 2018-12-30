@@ -1,0 +1,17 @@
+G_MULTI.CPP(1): Error! E059: (col 10) unable to open 'g_multi.h' 
+G_MULTI.CPP(2): Error! E059: (col 10) unable to open 'g_mac.h' 
+G_MULTI.CPP(3): Error! E059: (col 10) unable to open 'g_load.h' 
+G_MULTI.CPP(4): Error! E059: (col 10) unable to open 'g_system.h' 
+G_MULTI.CPP(5): Error! E059: (col 10) unable to open 'g_player.h' 
+G_MULTI.CPP(7): Error! E059: (col 10) unable to open 'cross.h' 
+G_MULTI.CPP(9): Error! E059: (col 10) unable to open 'palette.h' 
+G_MULTI.CPP(13): Error! E336: (col 6) declaration specifiers are required to declare 'make' 
+G_MULTI.CPP(13): Error! E121: (col 6) syntax error 
+G_MULTI.CPP(17): Error! E241: (col 20) 'class FarClient' has not been declared 
+G_MULTI.CPP(17): Error! E029: (col 26) symbol 'GameMessage' has not been declared 
+G_MULTI.CPP(17): Error! E029: (col 39) symbol 'mes' has not been declared 
+G_MULTI.CPP(18): Error! E006: (col 1) syntax error; probable cause: missing ';' 
+G_MULTI.CPP(340): Error! E241: (col 28) 'class MultiGame' has not been declared 
+G_MULTI.CPP(341): Error! E042: (col 1) symbol 'Exec' already defined 
+G_MULTI.CPP(341): Note! N392: (col 1) 'int Exec' defined in: G_MULTI.CPP(17) (col 20) 
+G_MULTI.CPP(341): Error! E006: (col 1) syntax error; probable cause: missing ';' 

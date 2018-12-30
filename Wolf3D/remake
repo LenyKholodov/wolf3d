@@ -1,0 +1,430 @@
+
+UNT Game Studio. Resource compile utility v 1.0
+Include file 'source/include/graph/graph.inc' from 'make.txt' line 11
+Include file 'source/include/gr_defs.txt' from 'make.txt' line 12
+		 SL_IFACE
+		 SL_CH_FACE
+		 SL_DUPLET
+		 SL_AUTOMAT
+		 SL_SIGHT
+		 SL_KILLER
+		 SL_GUN
+		 SL_BAZUKA
+		 TEXT_WALLN
+		 TEXT_WALLE
+		 TEXT_WALLS
+		 TEXT_WALLW
+		 TEXT_DOOR1
+		 TEXT_WALL
+		 TEXT_WALL1
+		 TEXT_WALL2
+		 TEXT_FLOOR1
+		 TEXT_FLOOR2
+		 TEXT_WALL0
+		 TEXT_MAPS_S1
+		 TEXT_MAPS_S2
+		 TEXT_MAPS_W1
+		 TEXT_MAPS_W2
+		 TEXT_MAPS_W3
+		 TEXT_MAPS_W4
+		 TEXT_MAPS_W5
+		 TEXT_MAPS_W6
+		 TEXT_MAPS_W7
+		 TEXT_MAPS_W8
+		 TEXT_MAPS_W9
+		 TEXT_MAPS_W10
+		 TEXT_MAPS_W11
+		 TEXT_SNOW
+		 TEXT_SKY
+		 SPR_PORTAL
+		 SPR_SARG
+		 SPR_PLAY
+		 SPR_BOSS
+		 SPR_CYBR
+		 SPR_TROO
+		 SPR_SKUL
+		 SPR_SPOS
+		 SPR_HEAD
+		 SPR_BAL7
+		 SPR_BAL1
+		 SPR_POSS
+		 SPR_INTEL
+		 SPR_AUTOMAT
+		 SPR_DUPLET
+		 SPR_KILLER
+		 SPR_GUN
+		 SPR_CH_MEN
+		 SPR_HEALTH
+		 SPR_ARMOR
+		 SPR_SHTG
+		 SPR_CHGG
+		 SPR_SAWG
+		 SPR_PISG
+		 SPR_PISF
+		 SPR_PUFF
+		 SPR_BLUD
+		 SPR_FAK
+		 SPR_TREE1
+		 SPR_BAZUKA
+		 SPR_BPAT
+		 SPR_CHAIR
+		 SPR_CHUV
+		 SPR_COAT
+		 BGIFNT_TRIP
+		 BFNT_FONT
+		 BFNT_W3D
+Include file 'source/include/defs.txt' from 'make.txt' line 13
+	SPRITE_CACHE_SIZE = 16
+	TEXT_CACHE_SIZE = 16
+	SPRLIST_CACHE_SIZE = 16
+	GAME_WEAPON_LIST = 1
+	GAME_SUBJECT_LIST = 2
+	GAME_OTHERS_LIST = 3
+	GAME_PLAYER_LIST = 4
+	GAME_TELEPORT_LIST = 5
+	GAME_EFFECT_LIST = 6
+	BOX_KILLER = 0
+	BOX_GUN = 1
+	BOX_SHOTGUN = 2
+	BOX_AUTOMAT = 3
+	BOX_FB = 4
+	BOX_HEALTH = 5
+	BOX_PROTECT = 6
+	GAME_CACHE_SIZE = 8
+	TRUE = 1
+	FALSE = 0
+	NULL = -1
+	NOSPRITE = 255
+	NOSOUND = -1
+	NORTH = 0
+	EAST = 1
+	SOURTH = 2
+	WEST = 3
+	STAGE_SIMPLE = 1
+	STAGE_TEXTURE_8BIT = 2
+	STAGE_SHADOW_TEXTURE_8BIT = 3
+	STAGE_LIGHTMAP_TEXTURE_8BIT = 4
+	SIMPLE_PLANE = 1
+	FLOOR_TEXTURE_8BIT = 2
+	FLOOR_SHADOW_8BIT = 3
+	FLOOR_UP_TEXTURE_8BIT = 2
+	FLOOR_UP_SHADOW_8BIT = 3
+	SKY_TEXTURE = 4
+	DOOR_OPEN_SND = 2
+	SGUN_USE_SND = 10
+	EXCELENT_SND = 0
+	SARGE_DEATH = 2
+	ERROR_SOUND = 12
+	SARGE_SPRITE_ID = 4
+	TROO_SPRITE_ID = 5
+	BOSS_SPRITE_ID = 6
+	SND_STD_DOOR_OPEN = 28
+	SND_STD_DOOR_CLOSE = 28
+	TEXT_STD_DOOR = 4
+	STD_DOOR_STEP = 2
+	STD_DOOR_WAIT_TIME = 12
+	STD_DOOR_CROSS_STATE = 32
+Include file 'source/include/levels/wolf3d/desc.inc' from 'make.txt' line 48
+Include file 'source/include/weapons/shotgun.inc' from 'source/include/levels/wolf3d/desc.inc' line 3
+Include file 'source/include/weapons/automat.inc' from 'source/include/levels/wolf3d/desc.inc' line 4
+Include file 'source/include/weapons/auto_pos.inc' from 'source/include/levels/wolf3d/desc.inc' line 5
+Include file 'source/include/weapons/skmat.inc' from 'source/include/levels/wolf3d/desc.inc' line 6
+Include file 'source/include/weapons/killer.inc' from 'source/include/levels/wolf3d/desc.inc' line 7
+Include file 'source/include/weapons/gun.inc' from 'source/include/levels/wolf3d/desc.inc' line 8
+Include file 'source/include/weapons/bazuka.inc' from 'source/include/levels/wolf3d/desc.inc' line 9
+			game/killer.wpn
+		 GW_KILLER
+			game/gun.wpn
+		 GW_GUN
+			game/auto_pos.wpn
+		 GW_AUTO_POS
+			game/duplet.wpn
+		 GW_DUPLET
+			game/automat.wpn
+		 GW_AUTOMAT
+			game/skmat.wpn
+		 GW_SKMAT
+			game/bazuka.wpn
+		 GW_BAZUKA
+Include file 'source/include/skins/player.inc' from 'source/include/levels/wolf3d/desc.inc' line 20
+Include file 'source/include/skins/monstr.inc' from 'source/include/levels/wolf3d/desc.inc' line 21
+Include file 'source/include/skins/diablo.inc' from 'source/include/levels/wolf3d/desc.inc' line 22
+Wrong resource name: 'SND_PL_LUCK'
+Include file 'source/include/skins/intel.inc' from 'source/include/levels/wolf3d/desc.inc' line 23
+Include file 'source/include/skins/niger.inc' from 'source/include/levels/wolf3d/desc.inc' line 24
+Include file 'source/include/skins/sarg.inc' from 'source/include/levels/wolf3d/desc.inc' line 25
+			game/play.plr
+		 PL_PLAY
+			game/monstr.plr
+		 PL_MONSTR
+			game/diablo.plr
+		 PL_DIABLO
+			game/intel.plr
+		 PL_INTEL
+			game/niger.plr
+		 PL_NIGER
+			game/sarg.plr
+		 PL_SARG
+Include file 'source/include/others/door1.inc' from 'source/include/levels/wolf3d/desc.inc' line 35
+			game/door1.gdr
+		 OTH_DOOR1
+Include file 'source/include/subj/automat.inc' from 'source/include/levels/wolf3d/desc.inc' line 40
+Include file 'source/include/subj/hpack.inc' from 'source/include/levels/wolf3d/desc.inc' line 41
+Include file 'source/include/subj/duplet.inc' from 'source/include/levels/wolf3d/desc.inc' line 42
+Include file 'source/include/subj/killer.inc' from 'source/include/levels/wolf3d/desc.inc' line 43
+Include file 'source/include/subj/gun.inc' from 'source/include/levels/wolf3d/desc.inc' line 44
+Include file 'source/include/subj/armor1.inc' from 'source/include/levels/wolf3d/desc.inc' line 45
+Include file 'source/include/subj/bazuka.inc' from 'source/include/levels/wolf3d/desc.inc' line 46
+			game/automat.box
+		 SBJ_AUTOMAT
+			game/hpack.box
+		 SBJ_HPACK
+			game/duplet.box
+		 SBJ_DUPLET
+			game/killer.box
+		 SBJ_KILLER
+			game/gun.box
+		 SBJ_GUN
+			game/armor1.box
+		 SBJ_ARMOR1
+			game/bazuka.box
+		 SBJ_BAZUKA
+Include file 'source/include/portals/portal1.inc' from 'source/include/levels/wolf3d/desc.inc' line 59
+Include file 'source/include/portals/telep1.inc' from 'source/include/levels/wolf3d/desc.inc' line 60
+			game/telep1.tlp
+		 TLP_TELEP1
+			game/portal1.tlp
+		 TLP_PORTAL1
+Include file 'source/include/effect/world.inc' from 'source/include/levels/wolf3d/desc.inc' line 66
+Include file 'source/include/effect/light1.inc' from 'source/include/levels/wolf3d/desc.inc' line 67
+			game/fak.spr
+		 EF_FAK
+			game/light1.lt
+		 EF_LIGHT1
+			game/tree1.spr
+		 EF_TREE1
+			game/chair.spr
+		 EF_CHAIR
+			game/coat.spr
+		 EF_COAT
+Include file 'source/include/levels/wolf3d/map.inc' from 'make.txt' line 50
+Process subject map
+X 1 Y 1
+X 45 Y 16
+X 40 Y 55
+Save Sprites Cache maps/wolf3d/w3d.wsc
+Save Textures Cache maps/wolf3d/w3d.wtf
+Save Sprite List Cache maps/wolf3d/w3d.wsl
+Create stage map maps/wolf3d/wolf3d.map
+UNT Games Studio. Map make utility
+Map: Create new map...
+Save new map: maps/wolf3d/wolf3d.map
+Create light map maps/wolf3d/wolf3d.lmf
+UNT Games Studio. Light Map make utility
+Map: All right begin loading...
+Map: First initialization. Memory alloc...
+Map: Now loading data of this file...
+Ray casting: Set default params
+Ray casting: Reset system tables...
+Ray casting: Reset system tables...
+Save maps...OK
+Create game level Welcome
+Include file 'source/include/gr_defs.txt' from 'make.txt' line 64
+		 SL_IFACE
+		 SL_CH_FACE
+		 SL_DUPLET
+		 SL_AUTOMAT
+		 SL_SIGHT
+		 SL_KILLER
+		 SL_GUN
+		 SL_BAZUKA
+		 TEXT_WALLN
+		 TEXT_WALLE
+		 TEXT_WALLS
+		 TEXT_WALLW
+		 TEXT_DOOR1
+		 TEXT_WALL
+		 TEXT_WALL1
+		 TEXT_WALL2
+		 TEXT_FLOOR1
+		 TEXT_FLOOR2
+		 TEXT_WALL0
+		 TEXT_MAPS_S1
+		 TEXT_MAPS_S2
+		 TEXT_MAPS_W1
+		 TEXT_MAPS_W2
+		 TEXT_MAPS_W3
+		 TEXT_MAPS_W4
+		 TEXT_MAPS_W5
+		 TEXT_MAPS_W6
+		 TEXT_MAPS_W7
+		 TEXT_MAPS_W8
+		 TEXT_MAPS_W9
+		 TEXT_MAPS_W10
+		 TEXT_MAPS_W11
+		 TEXT_SNOW
+		 TEXT_SKY
+		 SPR_PORTAL
+		 SPR_SARG
+		 SPR_PLAY
+		 SPR_BOSS
+		 SPR_CYBR
+		 SPR_TROO
+		 SPR_SKUL
+		 SPR_SPOS
+		 SPR_HEAD
+		 SPR_BAL7
+		 SPR_BAL1
+		 SPR_POSS
+		 SPR_INTEL
+		 SPR_AUTOMAT
+		 SPR_DUPLET
+		 SPR_KILLER
+		 SPR_GUN
+		 SPR_CH_MEN
+		 SPR_HEALTH
+		 SPR_ARMOR
+		 SPR_SHTG
+		 SPR_CHGG
+		 SPR_SAWG
+		 SPR_PISG
+		 SPR_PISF
+		 SPR_PUFF
+		 SPR_BLUD
+		 SPR_FAK
+		 SPR_TREE1
+		 SPR_BAZUKA
+		 SPR_BPAT
+		 SPR_CHAIR
+		 SPR_CHUV
+		 SPR_COAT
+		 BGIFNT_TRIP
+		 BFNT_FONT
+		 BFNT_W3D
+Include file 'source/include/defs.txt' from 'make.txt' line 65
+	SPRITE_CACHE_SIZE = 16
+	TEXT_CACHE_SIZE = 16
+	SPRLIST_CACHE_SIZE = 16
+	GAME_WEAPON_LIST = 1
+	GAME_SUBJECT_LIST = 2
+	GAME_OTHERS_LIST = 3
+	GAME_PLAYER_LIST = 4
+	GAME_TELEPORT_LIST = 5
+	GAME_EFFECT_LIST = 6
+	BOX_KILLER = 0
+	BOX_GUN = 1
+	BOX_SHOTGUN = 2
+	BOX_AUTOMAT = 3
+	BOX_FB = 4
+	BOX_HEALTH = 5
+	BOX_PROTECT = 6
+	GAME_CACHE_SIZE = 8
+	TRUE = 1
+	FALSE = 0
+	NULL = -1
+	NOSPRITE = 255
+	NOSOUND = -1
+	NORTH = 0
+	EAST = 1
+	SOURTH = 2
+	WEST = 3
+	STAGE_SIMPLE = 1
+	STAGE_TEXTURE_8BIT = 2
+	STAGE_SHADOW_TEXTURE_8BIT = 3
+	STAGE_LIGHTMAP_TEXTURE_8BIT = 4
+	SIMPLE_PLANE = 1
+	FLOOR_TEXTURE_8BIT = 2
+	FLOOR_SHADOW_8BIT = 3
+	FLOOR_UP_TEXTURE_8BIT = 2
+	FLOOR_UP_SHADOW_8BIT = 3
+	SKY_TEXTURE = 4
+	DOOR_OPEN_SND = 2
+	SGUN_USE_SND = 10
+	EXCELENT_SND = 0
+	SARGE_DEATH = 2
+	ERROR_SOUND = 12
+	SARGE_SPRITE_ID = 4
+	TROO_SPRITE_ID = 5
+	BOSS_SPRITE_ID = 6
+	SND_STD_DOOR_OPEN = 28
+	SND_STD_DOOR_CLOSE = 28
+	TEXT_STD_DOOR = 4
+	STD_DOOR_STEP = 2
+	STD_DOOR_WAIT_TIME = 12
+	STD_DOOR_CROSS_STATE = 32
+Include file 'source/include/levels/level1/desc.inc' from 'make.txt' line 100
+			game/killer.wpn
+		 GW_KILLER
+			game/gun.wpn
+		 GW_GUN
+			game/auto_pos.wpn
+		 GW_AUTO_POS
+			game/duplet.wpn
+		 GW_DUPLET
+			game/automat.wpn
+		 GW_AUTOMAT
+			game/skmat.wpn
+		 GW_SKMAT
+			game/bazuka.wpn
+		 GW_BAZUKA
+			game/automat.box
+		 SBJ_AUTOMAT
+			game/hpack.box
+		 SBJ_HPACK
+			game/killer.box
+		 SBJ_KILLER
+			game/gun.box
+		 SBJ_GUN
+			game/armor1.box
+		 SBJ_ARMOR1
+			game/bazuka.box
+		 SBJ_BAZUKA
+			game/door1.gdr
+		 OTH_DOOR1
+			game/play.plr
+		 PL_PLAY
+			game/monstr.plr
+		 PL_MONSTR
+			game/diablo.plr
+		 PL_DIABLO
+			game/intel.plr
+		 PL_INTEL
+			game/niger.plr
+		 PL_NIGER
+			game/sarg.plr
+		 PL_SARG
+			game/telep1.tlp
+		 TLP_TELEP1
+			game/portal1.tlp
+		 TLP_PORTAL1
+			game/fak.spr
+		 EF_FAK
+			game/light1.lt
+		 EF_LIGHT1
+			game/tree1.spr
+		 EF_TREE1
+			game/chair.spr
+		 EF_CHAIR
+			game/coat.spr
+		 EF_COAT
+Include file 'source/include/levels/level1/map.inc' from 'make.txt' line 102
+Process subject map
+X 1 Y 1
+X 18 Y 17
+Save Sprites Cache maps/level1/w3d.wsc
+Save Textures Cache maps/level1/w3d.wtf
+Save Sprite List Cache maps/level1/w3d.wsl
+Create stage map maps/level1/level1.map
+UNT Games Studio. Map make utility
+Map: Create new map...
+Save new map: maps/level1/level1.map
+Create light map maps/level1/level1.lmf
+UNT Games Studio. Light Map make utility
+Map: All right begin loading...
+Map: First initialization. Memory alloc...
+Map: Now loading data of this file...
+Ray casting: Set default params
+Ray casting: Reset system tables...
+Ray casting: Reset system tables...
+Save maps...OK
+Create game level LastNight

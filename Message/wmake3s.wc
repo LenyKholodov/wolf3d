@@ -1,0 +1,7 @@
+COPT= -fpi87 -fp3 -zdp -bt=dos -oneatx -s -3s
+AOPT= /ml /m /zn
+TARGET_SHORT_NAME=vm3s.lib
+!include owclist.inc
+OBJ_LIST=$(OBJ_S_LIST)
+                                         
+!include ..\makepro.wc

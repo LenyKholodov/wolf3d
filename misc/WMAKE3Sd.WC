@@ -1,0 +1,7 @@
+COPT= -fpi87 -fp3 -zdp -bt=dos -oneatx -s -3s -dDEBUG
+AOPT= /ml /m /zn
+TARGET_SHORT_NAME=vm3sd.lib
+!include owclist.inc
+OBJ_LIST=$(OBJ_S_LIST) debugl.obj
+                                         
+!include ..\makepro.wc

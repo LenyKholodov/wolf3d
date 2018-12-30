@@ -1,0 +1,133 @@
+# Compilers and options:
+
+CCOPTS = -3r -ox -s
+
+OBJ_LIST1 = normpal.obj
+OBJ_LIST2 = map.obj      crmap.obj    light.obj    render.obj cache.obj &
+            palette.obj  textures.obj  sprite.obj  t_defs.obj
+OBJ_LIST3 = map.obj      render.obj    &
+            wolf_mes.obj palette.obj   cache.obj    textures.obj &
+            light.obj    cons.obj      sprite.obj &
+            level.obj    sound.obj     g_defs.obj  grcons.obj &
+            fin.obj      history.obj   simple.obj  console.obj &
+            bkeffect.obj sprlist.obj   t_subj.obj  t_res.obj g_prior.obj &
+            bkfone.obj   t_defs.obj
+OBJ_LIST5 = mmtmake.obj  textures.obj  cache.obj
+OBJ_LIST6 = mmt16.obj    textures.obj  cache.obj
+OBJ_LIST7 = wtftest.obj  textures.obj  cache.obj
+OBJ_LIST10 = mmttest.obj textures.obj  cache.obj    palette.obj
+OBJ_LIST11= wsctest.obj  sprite.obj    textures.obj cache.obj  t_defs.obj
+OBJ_LIST12 = map.obj      crlmap.obj    light.obj    render.obj cache.obj &
+            palette.obj  textures.obj  sprite.obj    t_defs.obj
+OBJ_LIST13 = make.obj textures.obj sprite.obj cache.obj level.obj light.obj &
+             render.obj palette.obj map.obj sound.obj g_defs.obj  sprlist.obj &
+             t_weap.obj t_subj.obj   t_res.obj t_door.obj t_player.obj &
+             t_wplyr.obj t_telep.obj g_prior.obj t_effect.obj t_defs.obj
+OBJ_LIST0  = g_object.obj g_pool.obj g_ttable.obj g_mq.obj &
+             g_ring.obj g_alist.obj  g_map.obj  g_load.obj   g_system.obj &
+             g_player.obj map.obj    g_input.obj g_view.obj  &
+             render.obj   light.obj  sprite.obj  textures.obj cache.obj  &
+             palette.obj  level.obj  g_triger.obj g_door.obj  g_single.obj &
+             sound.obj    g_subj.obj g_box.obj    g_weap.obj  cross.obj &
+             g_defs.obj   fin.obj    sprlist.obj  t_res.obj   t_subj.obj &
+             t_door.obj   t_player.obj t_weap.obj g_monstr.obj g_wplyr.obj &
+             t_wplyr.obj  g_iq.obj   g_random.obj g_scrfc.obj g_user.obj &
+             g_anim.obj   g_telep.obj g_prior.obj cons.obj    history.obj &
+             simple.obj   grcons.obj  console.obj bkeffect.obj bkfone.obj &
+             g_mac.obj    t_effect.obj g_effect.obj fail.obj  lscreen.obj &
+             t_defs.obj   g_multi.obj  g_netseq.obj net.obj g_netinq.obj &
+             g_netmap.obj
+OBJ_LIST14 = test__4.obj $(OBJ_LIST0)
+OBJ_LIST15 = wolf16.obj cons.obj  palette.obj   g_defs.obj grcons.obj &
+            fin.obj      history.obj   simple.obj  console.obj &
+            bkeffect.obj bkfone.obj  render.obj cache.obj sprite.obj &
+            textures.obj  level.obj  light.obj  t_res.obj  map.obj &
+            sprlist.obj   sound.obj  t_defs.obj
+OBJ_LIST16 = wad.obj d2wspr.obj     cache.obj sprite.obj palette.obj textures.obj &
+             t_defs.obj
+OBJ_LIST17 = mult.obj $(OBJ_LIST0)
+
+all : crmap.exe crlmap.exe normpal.exe    &
+      wolf.exe mmt8.exe  &
+      wtftest.exe  &
+      mmttest.exe wsctest.exe &
+      make.exe &
+      test__.exe d2wspr.exe mult.exe mmt16.exe &
+      wolf16.exe
+
+
+crmap.exe:         $(OBJ_LIST2)
+        %create temp.tmp
+        for %i in ($(OBJ_LIST2)) do @%append temp.tmp file %i
+        wlink name crmap system dos4g @temp.tmp option caseexact option stack=1024k
+        del temp.tmp
+#        crmap source/wolf3d.map maps/wolf3d.map
+crlmap.exe:         $(OBJ_LIST12)
+        %create temp.tmp
+        for %i in ($(OBJ_LIST12)) do @%append temp.tmp file %i
+        wlink name crlmap system dos4g @temp.tmp option caseexact option stack=1024k
+        del temp.tmp
+#        crlmap maps/wolf3d.map 8 maps/wolf3d.lmf
+wolf.exe:         $(OBJ_LIST3)
+        %create temp.tmp
+        for %i in ($(OBJ_LIST3)) do @%append temp.tmp file %i
+        wlink name wolf system dos4g @temp.tmp option caseexact option stack=1024k
+        del temp.tmp
+wolf16.exe:         $(OBJ_LIST15)
+        %create temp.tmp
+        for %i in ($(OBJ_LIST15)) do @%append temp.tmp file %i
+        wlink name wolf16 system dos4g @temp.tmp option caseexact option stack=1024k
+        del temp.tmp
+mmt8.exe:         $(OBJ_LIST5)
+        %create temp.tmp
+        for %i in ($(OBJ_LIST5)) do @%append temp.tmp file %i
+        wlink name mmt8 system dos4g @temp.tmp option caseexact option stack=1024k
+        del temp.tmp
+mmt16.exe:         $(OBJ_LIST6)
+        %create temp.tmp
+        for %i in ($(OBJ_LIST6)) do @%append temp.tmp file %i
+        wlink name mmt16 system dos4g @temp.tmp option caseexact option stack=1024k
+        del temp.tmp
+wtftest.exe:         $(OBJ_LIST7)
+        %create temp.tmp
+        for %i in ($(OBJ_LIST7)) do @%append temp.tmp file %i
+        wlink name wtftest system dos4g @temp.tmp option caseexact option stack=1024k
+        del temp.tmp
+mmttest.exe:         $(OBJ_LIST10)
+        %create temp.tmp
+        for %i in ($(OBJ_LIST10)) do @%append temp.tmp file %i
+        wlink name mmttest system dos4g @temp.tmp option caseexact option stack=1024k
+        del temp.tmp
+wsctest.exe:         $(OBJ_LIST11)
+        %create temp.tmp
+        for %i in ($(OBJ_LIST11)) do @%append temp.tmp file %i
+        wlink name wsctest system dos4g @temp.tmp option caseexact option stack=1024k
+        del temp.tmp
+normpal.exe:         $(OBJ_LIST1)
+        %create temp.tmp
+        for %i in ($(OBJ_LIST1)) do @%append temp.tmp file %i
+        wlink name normpal system dos4g @temp.tmp option caseexact option stack=1024k
+        del temp.tmp
+make.exe:         $(OBJ_LIST13)
+        %create temp.tmp
+        for %i in ($(OBJ_LIST13)) do @%append temp.tmp file %i
+        wlink name make system dos4g @temp.tmp option caseexact option stack=1024k
+        del temp.tmp
+#        make make.txt
+test__.exe:         $(OBJ_LIST14)
+        %create temp.tmp
+        for %i in ($(OBJ_LIST14)) do @%append temp.tmp file %i
+        wlink name test__ system dos4g @temp.tmp option caseexact option stack=1024k
+        del temp.tmp
+d2wspr.exe:       $(OBJ_LIST16)
+        %create temp.tmp
+        for %i in ($(OBJ_LIST16)) do @%append temp.tmp file %i
+        wlink name d2wspr system dos4g @temp.tmp option caseexact option stack=1024k
+        del temp.tmp
+mult.exe:       $(OBJ_LIST17)
+        %create temp.tmp
+        for %i in ($(OBJ_LIST17)) do @%append temp.tmp file %i
+        wlink name mult system dos4g @temp.tmp option caseexact option stack=1024k
+        del temp.tmp
+.cpp.obj:
+        wpp386 $(CCOPTS) $[*

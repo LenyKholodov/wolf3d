@@ -1,0 +1,3 @@
+OBJ_LIST=varpool.obj command.obj
+
+!include ..\makepro.bc

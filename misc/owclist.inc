@@ -1,0 +1,1 @@
+OBJ_S_LIST=misc.obj error.obj dpmi32gw.obj midasshl.obj
